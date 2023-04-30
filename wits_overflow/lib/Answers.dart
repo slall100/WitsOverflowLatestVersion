@@ -18,7 +18,7 @@ class CounterScreenState extends StatefulWidget {
 class CounterScreen extends State<CounterScreenState> {
   TextEditingController _questionController = TextEditingController();
 
-  Question _question = Question();
+  Question _question = Question(); //Question page
   @override
   bool isSearching = false;
   bool isPressed = false;
@@ -86,6 +86,7 @@ class CounterScreen extends State<CounterScreenState> {
                   },
                 )
               : IconButton(
+                  //Allow you to search button
                   icon: Icon(Icons.search),
                   color: Colors.black,
                   onPressed: () {
