@@ -169,8 +169,8 @@ class _ProfileEditState extends State<ProfileEdit> {
               buildTextField("Full Name", "Username", false, nameController),
               buildTextField(
                   "Email", "userEmail@gmail.com", false, emailController),
-              buildTextField(
-                  "Password", "Enter Password", true, passwordController),
+              buildTextField("Change Password", "Enter Password", true,
+                  passwordController),
               buildTextField(
                   "Location", "South Africa", false, locationController),
               SizedBox(height: 30),

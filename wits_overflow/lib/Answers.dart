@@ -2,10 +2,11 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:wits_overflow/ProfileEdit.dart';
-import 'package:wits_overflow/model/Question.dart';
-import 'package:wits_overflow/view/history_view.dart';
+
+import 'ProfileEdit.dart';
 import 'fetch_questions.dart';
+import 'model/Question.dart';
+import 'view/history_view.dart';
 
 class CounterScreenState extends StatefulWidget {
   const CounterScreenState({super.key});
